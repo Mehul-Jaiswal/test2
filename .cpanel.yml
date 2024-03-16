@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mehuljaiswal/public_html
+    - /bin/cp mj-web $DEPLOYPATH 
+    - /bin cp * $DEPLOYPATH
